@@ -1,6 +1,12 @@
-git init
-git status
+//basic commands for various purposes
+git init #will start the git in our folder
+git status #shows the status of folder
+git log #shows the history of folder
+git diff #will show the changes made to the project files
 
-git add hello.html
-git add .
+//commands to ading a file/folder to start tracking the changes
+git add hello.html #will add the hello.html file to start tracking the changes
+git add . #will add the entire folder to startbtracking changes, instead of single file
 
+//commands to saving the snapshot after making all necessary changes
+git commit -m "added a new paragraph" #after making all the changes to our project files, it will save a snapshot of the project/file to github repo{folder}
