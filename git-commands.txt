@@ -10,3 +10,19 @@ git add . #will add the entire folder to startbtracking changes, instead of sing
 
 //commands to saving the snapshot after making all necessary changes
 git commit -m "added a new paragraph" #after making all the changes to our project files, it will save a snapshot of the project/file to github repo{folder}
+
+//commands to clone, push, pull the repo
+#cloning
+git clone https://github.com/VelzckC0D3/Velzck_Shop.git
+
+#pushing
+git remote add origin main https://github.com/Varunreddy677/event.git
+{
+-here some will have main and some have master, so to check use 
+git branch - it will show the branch name as master,main
+}
+git push -u origin main
+
+#pulling
+now after pushing the code and we made some changes and commited in the github website only- [remote repo] and next we need to reflect those changes in our local repo, we use the pull command
+git pull origin main
