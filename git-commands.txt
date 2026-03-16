@@ -1,5 +1,5 @@
 //basic commands for various purposes
-git init #will start the git in our folder
+git init #will start the git in our folder #first command you need to use, to initialize git inour folder
 git status #shows the status of folder
 git log #shows the history of folder
 git diff #will show the changes made to the project files
