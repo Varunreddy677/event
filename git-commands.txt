@@ -20,6 +20,8 @@ git remote add origin main https://github.com/Varunreddy677/event.git
 {
 -here some will have main and some have master, so to check use 
 git branch - it will show the branch name as master,main
+git checkout main / git checkout master etc...
+git branch -M main - it will force the name to use main, if other than main is there
 }
 git push -u origin main
 
